@@ -7,22 +7,179 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/app.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <link href="css/app.css">
 
     <title> Superio </title>
 
   </head>
   <body>
 
-    <header class="container-gluid">
-     <div class="row">
-      <div class="col-lg-12">
-       
-      </div>
+    <header>
+     <div class="height-65 text-center">
+      <div class="fixed-top" id="navbar">
+        <div class="container">
+         <div class="row" id="menu-notebook">
+          <div class="col-lg-7 padding-top-20">
+
+           <a class="link-menu font-size-superio" href="#primeira-section"> Superio </a>
+           <a class="dropdown">
+            <a class="dropdown-toggle link-menu" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Home </a>
+            <ul class="dropdown-menu margin-top-22" aria-labelledby="dropdownMenuLink">
+             <li><a class="dropdown-item" href="#">Action</a></li>
+             <li><a class="dropdown-item" href="#">Another action</a></li>
+             <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+           </a>
+           <a class="dropdown">
+            <a class="dropdown-toggle link-menu" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Find jobs </a>
+            <ul class="dropdown-menu margin-top-22" aria-labelledby="dropdownMenuLink">
+             <li><a class="dropdown-item" href="#">Action</a></li>
+             <li><a class="dropdown-item" href="#">Another action</a></li>
+             <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+           </a>
+           <a class="dropdown">
+            <a class="dropdown-toggle link-menu" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Emplayers </a>
+            <ul class="dropdown-menu margin-top-22" aria-labelledby="dropdownMenuLink">
+             <li><a class="dropdown-item" href="#">Action</a></li>
+             <li><a class="dropdown-item" href="#">Another action</a></li>
+             <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+           </a>
+           <a class="dropdown">
+            <a class="dropdown-toggle link-menu" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Candidates </a>
+            <ul class="dropdown-menu margin-top-22" aria-labelledby="dropdownMenuLink">
+             <li><a class="dropdown-item" href="#">Action</a></li>
+             <li><a class="dropdown-item" href="#">Another action</a></li>
+             <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+           </a>
+           <a class="dropdown">
+            <a class="dropdown-toggle link-menu" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Blog </a>
+            <ul class="dropdown-menu margin-top-22" aria-labelledby="dropdownMenuLink">
+             <li><a class="dropdown-item" href="#">Action</a></li>
+             <li><a class="dropdown-item" href="#">Another action</a></li>
+             <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+           </a>
+           <a class="dropdown">
+            <a class="dropdown-toggle link-menu" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Pages </a>
+            <ul class="dropdown-menu margin-top-22" aria-labelledby="dropdownMenuLink">
+             <li><a class="dropdown-item" href="#">Action</a></li>
+             <li><a class="dropdown-item" href="#">Another action</a></li>
+             <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+           </a>
+
+          </div>
+          <div class="col-lg-5 text-center padding-top-10">
+           <button type="button" class="btn btn-light primeiro-botao-menu"> Upload your CV </button>
+           <button type="button" class="btn btn-outline-light segundo-botao-menu"> Login / Register </button>
+           <button type="button" class="btn btn-primary terceiro-botao-menu"> Job Post </button>
+          </div>
+         </div>
+         <div class="row" id="menu-responsivo">
+          <div class="col-lg-12">
+           <div class="container espacamento-menu" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+           </div>
+          </div>
+         </div>
+         <div class="row">
+          <div class="col-lg-4">
+
+          </div>
+          <div class="col-lg-8">
+
+          </div>
+         </div>
+        </div>
+       </div>
      </div>
     </header>
+
+    <section class="container-fluid background-image-primeira-section" id="primeira-section">
+      <div class="container">
+       <div class="row">
+        <div class="col-lg-6 order-lg-0 order-md-1 order-sm-0 espacamento-col-primeira-section">
+         <h1 class="titulo-primeira-section"> CORONA </h1>
+         <span class="span-primeira-section">
+           <span class="sub-titulo-1"> COVID-19 </span>
+           <span class="sub-titulo-2"> VIRUS </span>
+         </span>
+         <p class="descricao-primeira-section">
+           The Coronavirus (COVID-19) was first reported in Wuhan, Hubei, China in December 2019, 
+           the outbreak was later recognized as a pandemic by the World Health Organization (WHO) 
+           on 11 March 2020.
+         </p>
+         <div class="btn botao-primeira-section margin-top-20"><a class="texto-botao" href="#nona-section"> How to Protect </a><i class="fas fa-shield-alt"></i></div>
+         <div class="btn segundo-botao-primeira-section margin-top-20" href=""><a class="segundo-texto-botao" href="#segunda-section"> About COVID-19 </a><i class="fas fa-arrow-right"></i></div>
+ 
+         <div class="row">
+          <div class="col-lg-4 col-md-4 widht-50">
+           <h6 class="titulo-row-primeira-section"> Worldwide Cases </h6>
+           <span class="counter numeros-primeira-section" data-count="236029663"> 231,713,000 </span>
+          </div>
+          <div class="col-lg-4 col-md-4 widht-50">
+           <h6 class="titulo-row-primeira-section"> Deaths </h6>
+           <span class="counter numeros-primeira-section" data-count="4820327"> 4,747,841 </span>
+          </div>
+          <div class="col-lg-4 col-md-4 margin-top-55">
+           <h6 class="titulo-row-primeira-section"> Recovered </h6>
+           <span class="counter numeros-primeira-section" data-count="211304646"> 206,639,788 </span>
+          </div>
+         </div>
+ 
+         <p class="tag-p"> * Last updated: Sep 24, 2021, 10:55 AM America/Chicago </p>
+   
+        </div>
+        <div class="col-lg-6 order-lg-1 order-md-0 order-sm-1 background-segunda-imagem-primeira-section"> </div>
+       </div>
+      </div>
+     </section>
+ 
+     <section class="container-fluid height-672" id="segunda-section">
+      <div class="container">
+       <div class="row">
+        <div class="col-lg-7 col-md-12">
+         <div id="text-animation">
+          <h5 class="subtitulo-segunda-section"> About the disease </h5>
+          <h2 class="titulo-segunda-section"> Coronavirus <br class="br-display"> (COVID-19) </h2>
+          <p class="descricao-segunda-section">
+           <strong> COVID-19 is a new illness that can affect your lungs and airways. </strong>
+           It's caused by a virus called coronavirus. It was discovered in December 2019 in Wuhan, Hubei, China.
+          </p>
+          <p class="color-blue"> 
+           Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing 
+           difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, 
+           kidney failure and even death.
+          </p>
+          <p class="color-blue">
+           Standard recommendations to prevent infection spread include regular hand washing, covering mouth and 
+           nose when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close contact with anyone showing 
+           symptoms of respiratory illness such as coughing and sneezing.
+          </p>
+         </div>
+        </div>
+        <div class="col-lg-5 col-md-12">
+         <div class="div-border" id="text-div-animation">
+          <div class="div-padding">
+           <h4 class="titulo-div-border"> What you need to know </h4>
+          </div>
+          <div class="div-border-link"><a class="link-segunda-section" href="#terceira-section"> How coronavirus is spread <i class="fas fa-arrow-right margin-left-icone"></i></a></div>
+          <div class="div-border-link"><a class="link-segunda-section" href="#quarta-section"> Symptoms of coronavirus <i class="fas fa-arrow-right margin-left-segundo-icone"></i></a></div>
+          <div class="div-border-link"><a class="link-segunda-section" href="#nona-section"> How to protect yourself <i class="fas fa-arrow-right icone-segunda-section margin-left-terceiro-icone"></i></a></div>
+          <div class="div-border-link"><a class="link-segunda-section" href="#oitava-section"> Treatment for coronavirus <i class="fas fa-arrow-right icone-segunda-section margin-left-quarto-icone"></i></a></div>
+          <div class="div-border-link"><a class="link-segunda-section" href="#decima-section"> Myth-Busters of coronavirus <i class="fas fa-arrow-right icone-segunda-section margin-left-quinto-icone"></i></a></div>
+          <div class="div-border-link"><a class="link-segunda-section" href="#decima-section"> Questions & answers <i class="fas fa-arrow-right icone-segunda-section margin-left-sexto-icone"></i></a></div>
+         </div>
+        </div>
+       </div>
+      </div> 
+     </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

@@ -1,0 +1,175 @@
+.height-65 {
+    height: 65px;
+    background-color: #D9E4EC;
+}
+
+.link-menu {
+    text-decoration: none !important;
+    color: #000000;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: 14px;
+}
+
+.link-menu:hover {
+    color: blue;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.padding-top-10 {
+    padding-top: 16px;
+}
+
+.margin-top-22 {
+    margin-top: 22px !important;
+}
+
+.font-size-superio {
+    font-size: 20px;
+}
+
+.primeiro-botao-menu {
+    background-color: transparent;
+    color: blue;
+    border: 1px solid transparent;
+}
+
+.primeiro-botao-menu:hover {
+    background-color: transparent;
+    color: blue;
+    border: 1px solid transparent;
+}
+
+.segundo-botao-menu {
+    background-color: #f8f9fa;
+    color: blue;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.segundo-botao-menu:hover {
+    background-color: #f8f9fa;
+    color: blue;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.terceiro-botao-menu {
+    border-radius: 5px;
+    width: 105px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media (max-width: 320px) {
+    
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+
+}
+
+@media (min-width:  376px) and (max-width: 576px) {
+    
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #menu-notebook {
+        display: none;
+    }
+
+    .espacamento-menu {
+        margin-left: 600px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+   
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #menu-responsivo {
+        display: none;
+    }
+
+    .link-menu {
+        text-decoration: none !important;
+        color: #000000;
+        margin-right: 20px;
+        cursor: pointer;
+        transition: all .5s;
+        font-size: 11px;
+    }
+
+    .font-size-superio {
+        font-size: 17px;
+    }
+
+    .padding-top-10 {
+        padding-top: 18px;
+    }
+
+    .primeiro-botao-menu {
+        background-color: transparent;
+        color: blue;
+        border: 1px solid transparent;
+        font-size: 13px;
+    }
+
+    .segundo-botao-menu {
+        background-color: #f8f9fa;
+        color: blue;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        margin-right: 20px;
+        font-size: 13px;
+    }
+
+    .terceiro-botao-menu {
+        border-radius: 5px;
+        width: 105px;
+        font-size: 13px;
+    }
+
+    .padding-top-10 {
+        padding-top: 18px;
+    }
+}
+
+@media (min-width: 1201px) {
+    #menu-responsivo {
+        display: none;
+    }
+}
