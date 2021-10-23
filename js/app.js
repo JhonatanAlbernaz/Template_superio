@@ -25,3 +25,30 @@ function myFunction(x) {
 }
 
 //====================================================================//
+
+var menu_aberto_aberto = 0;
+
+$("#menu-responsivo").on("click", function(e){
+
+	if(menu_aberto_aberto == 0){
+		abrirMenu();
+	}else{
+		fecharMenu();
+	}
+	
+});
+
+function abrirMenu(){
+	$("#row-responsivo").show(4500);
+  $('#row-responsivo').animate({left: '70px'});
+  $("#bars").css("margin-top", "15px");
+	menu_aberto_aberto = 1;
+}
+
+function fecharMenu(){
+	$("#row-responsivo").hide(4500);
+  $("#bars").css("margin-top", "-5px");
+	menu_aberto_aberto = 0;
+}
+
+//====================================================================//
