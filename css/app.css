@@ -163,6 +163,32 @@
     margin-top: 20px;
 }
 
+.image-man {
+    height: 550px;
+    margin-top: -30px;
+    margin-left: -20px;
+}
+
+.primeira-imagem-topo-absolute {
+    height: 185px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.segunda-imagem-topo-absolute {
+    height: 185px;
+    position: absolute;
+    margin-top: -107px;
+    margin-left: -35px;
+}
+
+.terceira-imagem-topo-absolute {
+    height: 185px;
+    position: absolute;
+    margin-top: -107px;
+    margin-left: -35px;
+}
+
 @media (max-width: 320px) {
     #menu-notebook {
         display: none;
@@ -177,14 +203,14 @@
         background-color: white;
         min-height: 118vh;
         max-height: 105vh;
-        width: 302px;
+        width: 271px;
         padding: 1.5rem 1.5rem;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         transform: translateX(-100%);
         z-index: 888;
         overflow: auto;
         padding-top: 80px;
-        margin-left: 278px;
+        margin-left: 255px;
         margin-top: -56px;
         line-height: 36px;
     }
@@ -198,7 +224,7 @@
         position: fixed;
         top: 0;
         bottom: -1px;
-        left: 278px;
+        left: 255px;
         right: 0px;
         z-index: 777;
         background: rgba(27,71,161,0.8);
@@ -214,6 +240,55 @@
 
     #row-responsivo {
         display: none;
+    }
+
+    #imagem-homem-topo {
+        display: none;
+    }
+
+    .div-input {
+        height: 220px;
+        margin-top: 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .input-1 {
+        width: 227px;
+        margin-top: -30px;
+        margin-left: 45px;
+        border: 1px solid white;
+        font-size: 14px;
+    }
+
+    .div-vertical {
+        display: none;
+    }
+
+    .fa-map-marker-alt {
+        position: absolute;
+        left: 43px;
+        top: 422px;
+        font-size: 20px;
+        color: gray;
+    }
+
+    .input-2 {
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 45px;
+        border: 1px solid white;
+        font-size: 14px;
+    }
+
+    .button-find-jobs {
+        margin-left: 18px;
+        margin-top: 25px;
+    }
+
+    .background-color-section {
+        height: 625px;
+        background-color: #d9e4ec;
     }
 }
 
@@ -231,14 +306,14 @@
         background-color: white;
         min-height: 118vh;
         max-height: 105vh;
-        width: 302px;
+        width: 278px;
         padding: 1.5rem 1.5rem;
         box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
         transform: translateX(-100%);
         z-index: 888;
         overflow: auto;
         padding-top: 80px;
-        margin-left: 278px;
+        margin-left: 262px;
         margin-top: -56px;
         line-height: 36px;
     }
@@ -252,7 +327,7 @@
         position: fixed;
         top: 0;
         bottom: -1px;
-        left: 278px;
+        left: 262px;
         right: 0px;
         z-index: 777;
         background: rgba(27,71,161,0.8);
@@ -268,6 +343,53 @@
 
     #row-responsivo {
         display: none;
+    }
+
+    #imagem-homem-topo {
+        display: none;
+    }
+
+    .div-input {
+        height: 220px;
+        margin-top: 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .input-1 {
+        width: 260px;
+        margin-top: -30px;
+        margin-left: 45px;
+        border: 1px solid white;
+    }
+
+    .div-vertical {
+        display: none;
+    }
+
+    .fa-map-marker-alt {
+        position: absolute;
+        left: 43px;
+        top: 375px;
+        font-size: 20px;
+        color: gray;
+    }
+
+    .input-2 {
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 45px;
+        border: 1px solid white;
+    }
+
+    .button-find-jobs {
+        margin-left: 18px;
+        margin-top: 25px;
+    }
+
+    .background-color-section {
+        height: 570px;
+        background-color: #d9e4ec;
     }
 }
 
@@ -323,6 +445,53 @@
     #row-responsivo {
         display: none;
     }
+
+    #imagem-homem-topo {
+        display: none;
+    }
+
+    .div-input {
+        height: 220px;
+        margin-top: 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .input-1 {
+        width: 260px;
+        margin-top: -30px;
+        margin-left: 45px;
+        border: 1px solid white;
+    }
+
+    .div-vertical {
+        display: none;
+    }
+
+    .fa-map-marker-alt {
+        position: absolute;
+        left: 43px;
+        top: 375px;
+        font-size: 20px;
+        color: gray;
+    }
+
+    .input-2 {
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 45px;
+        border: 1px solid white;
+    }
+
+    .button-find-jobs {
+        margin-left: 18px;
+        margin-top: 25px;
+    }
+
+    .background-color-section {
+        height: 570px;
+        background-color: #d9e4ec;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -376,6 +545,51 @@
 
     #row-responsivo {
         display: none;
+    }
+
+    #imagem-homem-topo {
+        display: none;
+    }
+
+    .input-1 {
+        width: 260px;
+        margin-top: -30px;
+        margin-left: 45px;
+        border: 1px solid white;
+    }
+
+    .div-vertical {
+        height: 77px;
+        background-color: #0f69f2;
+        width: 2px;
+        position: absolute;
+        left: 350px;
+        top: 270px;
+    }
+
+    .fa-map-marker-alt {
+        position: absolute;
+        left: 380px;
+        top: 300px;
+        font-size: 20px;
+        color: gray;
+    }
+
+    .input-2 {
+        width: 150px;
+        margin-top: -38px;
+        margin-left: 370px;
+        border: 1px solid white;
+    }
+
+    .button-find-jobs {
+        margin-left: 550px;
+        margin-top: -65px;
+    }
+
+    .background-color-section {
+        height: 400px;
+        background-color: #d9e4ec;
     }
 }
 
@@ -433,6 +647,76 @@
 
     #row-responsivo {
         display: none;
+    }
+
+    .image-man {
+        height: 435px;
+        margin-top: -30px;
+        margin-left: -21px;
+    }
+
+    .primeira-imagem-topo-absolute {
+        height: 185px;
+        position: absolute;
+        margin-top: -13px;
+        margin-left: -66px;
+    }
+
+    .segunda-imagem-topo-absolute {
+        height: 185px;
+        position: absolute;
+        margin-top: -33px;
+        margin-left: -35px;
+    }
+
+    .fa-search {
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 40px;
+        color: gray;
+    }
+
+    .input-1 {
+        width: 246px;
+        margin-top: -30px;
+        margin-left: 35px;
+        border: 1px solid white;
+        font-size: 15px;
+    }
+
+    .div-vertical {
+        height: 77px;
+        background-color: #0f69f2;
+        width: 2px;
+        position: absolute;
+        left: 325px;
+        top: 316px;
+    }
+
+    .fa-map-marker-alt {
+        position: absolute;
+        left: 335px;
+        top: 345px;
+        font-size: 20px;
+        color: gray;
+    }
+
+    .input-2 {
+        width: 148px;
+        margin-top: -38px;
+        margin-left: 305px;
+        border: 1px solid white;
+    }
+
+    .button-find-jobs {
+        margin-left: 445px;
+        margin-top: -65px;
+        font-size: 14px;
+    }
+
+    .background-color-section {
+        height: 557px;
+        background-color: #d9e4ec;
     }
 }
 
