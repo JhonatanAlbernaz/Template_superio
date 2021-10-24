@@ -244,7 +244,7 @@
 }
 
 .height-710 {
-    height: 710px;
+    height: 780px;
 }
 
 .height-450 {
@@ -357,6 +357,63 @@
     color: orange;
 }
 
+.fa-users {
+    margin-left: 30px;
+    margin-top: 35px;
+    background-color: #2b56f5;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.class-maps {
+    margin-left: 12px;
+    color: #808087;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.fa-invision {
+    margin-left: 30px;
+    margin-top: 35px;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.fa-medium-m {
+    margin-left: 30px;
+    margin-top: 35px;
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.fa-ups {
+    margin-left: 30px;
+    margin-top: 35px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.fa-figma {
+    margin-left: 30px;
+    margin-top: 35px;
+    color: #2361ec;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+
 @media (max-width: 320px) {
     #menu-notebook {
         display: none;
@@ -461,6 +518,48 @@
 
     .height-700 {
         height: 1270px;
+    }
+
+    .height-710 {
+        height: 1230px;
+    }
+
+    .margin-top-55 {
+        margin-top: 360px;
+    }
+
+    .fa-stopwatch-tablet {
+        margin-left: 100px !important;
+    }
+
+    .class-maps {
+        display: none !important;
+    }
+
+    .fa-suitcase {
+        display: none !important;
+    }
+
+    .div-border-terceira-section small {
+        display: none;
+    }
+
+    .div-border-terceira-section {
+        border: 1px solid #d9e4ec;
+        height: 125px;
+        border-radius: 5px;
+    }
+
+    .fa-stopwatch-tablets {
+        display: none !important;
+    }
+
+    .margin-top-3 {
+        display: none !important;
+    }
+
+    .margin-left-35 {
+        display: none !important;
     }
 }
 
@@ -567,6 +666,80 @@
     .height-700 {
         height: 1270px;
     }
+
+    .height-710 {
+        height: 1360px;
+    }
+
+    .margin-top-55 {
+        margin-top: 500px;
+    }
+
+    .fa-stopwatch-tablet {
+        margin-left: 100px !important;
+    }
+
+    .class-maps {
+        display: none !important;
+    }
+
+    .fa-suitcase {
+        display: none !important;
+    }
+
+    .div-border-terceira-section small {
+        display: none;
+    }
+
+    .fa-stopwatch-tablets {
+        display: none !important;
+    }
+
+    .margin-top-3 {
+        margin-top: 30px !important;
+    }
+
+    .span-full {
+        background-color: gainsboro;
+        padding-left: 20px;
+        padding-bottom: 6px;
+        padding-right: 15px;
+        padding-top: 6px;
+        margin-right: 10px;
+        border-radius: 15px;
+        color: blue;
+        margin-left: 50px;
+        font-size: 10px;
+    }
+
+    .span-private {
+        background-color: gainsboro;
+        padding-left: 20px;
+        padding-bottom: 6px;
+        padding-right: 20px;
+        padding-top: 6px;
+        margin-right: 17px;
+        border-radius: 15px;
+        color: green;
+        font-size: 10px;
+    }
+
+    .span-urgent {
+        background-color: gainsboro;
+        padding-left: 20px;
+        padding-bottom: 6px;
+        padding-right: 20px;
+        padding-top: 6px;
+        margin-right: 17px;
+        border-radius: 15px;
+        color: orange;
+        font-size: 11px;
+    }
+
+    .margin-left-35 {
+        margin-left: 5px;
+        margin-top: 35px !important;
+    }
 }
 
 @media (min-width:  376px) and (max-width: 576px) {
@@ -671,6 +844,80 @@
 
     .height-700 {
         height: 1270px;
+    }
+
+    .height-710 {
+        height: 1340px;
+    }
+
+    .margin-top-55 {
+        margin-top: 500px;
+    }
+
+    .fa-stopwatch-tablet {
+        margin-left: 100px !important;
+    }
+
+    .class-maps {
+        display: none !important;
+    }
+
+    .fa-suitcase {
+        display: none !important;
+    }
+
+    .div-border-terceira-section small {
+        display: none;
+    }
+
+    .fa-stopwatch-tablets {
+        display: none !important;
+    }
+
+    .margin-top-3 {
+        margin-top: 50px !important;
+    }
+
+    .span-full {
+        background-color: gainsboro;
+        padding-left: 20px;
+        padding-bottom: 6px;
+        padding-right: 15px;
+        padding-top: 6px;
+        margin-right: 10px;
+        border-radius: 15px;
+        color: blue;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+
+    .span-private {
+        background-color: gainsboro;
+        padding-left: 20px;
+        padding-bottom: 6px;
+        padding-right: 20px;
+        padding-top: 6px;
+        margin-right: 17px;
+        border-radius: 15px;
+        color: green;
+        font-size: 13px;
+    }
+
+    .span-urgent {
+        background-color: gainsboro;
+        padding-left: 20px;
+        padding-bottom: 6px;
+        padding-right: 20px;
+        padding-top: 6px;
+        margin-right: 17px;
+        border-radius: 15px;
+        color: orange;
+        font-size: 13px;
+    }
+
+    .margin-left-35 {
+        margin-left: -25px;
+        margin-top: 45px !important;
     }
 }
 
@@ -786,6 +1033,50 @@
         margin-left: 85px;
         line-height: 10px;
     }
+
+    .margin-top-55 {
+        margin-top: 500px;
+    }
+
+    .height-710 {
+        height: 1010px;
+    }
+
+    .margin-left {
+        position: absolute;
+        left: 250px;
+        margin-top: -21px;
+    }
+
+    .small-time {
+        position: absolute;
+        left: 359px;
+        margin-top: -21px;
+    }
+
+    .fa-money-bill-alt {
+        position: absolute;
+        left: 460px;
+        margin-top: -19px;
+        color: #808087;
+    }
+
+    .small-money {
+        position: absolute;
+        left: 490px;
+        margin-top: -21px;
+    }
+    
+    .margin-top-3 {
+        margin-top: 3rem!important;
+        margin-left: 35px;
+    }
+
+    .margin-top-3 {
+        margin-top: 1rem!important;
+        margin-left: 35px;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -912,6 +1203,62 @@
     .background-color-section {
         height: 557px;
         background-color: #d9e4ec;
+    }
+
+    .div-border-terceira-section {
+        border: 1px solid #d9e4ec;
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .margin-left {
+        position: absolute;
+        left: 270px;
+        margin-top: -21px;
+    }
+
+    .small-time {
+        position: absolute;
+        left: 380px;
+        margin-top: -21px;
+    }
+
+    .margin-top-3 {
+        margin-top: 3rem!important;
+        margin-left: 35px;
+    }
+
+    .fa-money-bill-alt {
+        position: absolute;
+        left: 145px;
+        margin-top: 6px;
+        color: #808087;
+    }
+
+    .small-money {
+        position: absolute;
+        left: 175px;
+        margin-top: 5px;
+    }
+
+    .class-maps-notebook {
+        margin-left: 100px;
+        color: #808087;
+        font-size: 16px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .margin-top-55 {
+        margin-top: 155px;
+    }
+
+    .height-710 {
+        height: 1010px;
+    }
+
+    .margin-left-35 {
+        margin-left: 35px;
     }
 }
 
