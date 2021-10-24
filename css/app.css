@@ -243,6 +243,120 @@
     background-color: #d9e4ec;
 }
 
+.height-710 {
+    height: 710px;
+}
+
+.height-450 {
+    height: 450px;
+    margin-top: 50px;
+}
+
+.div-border-terceira-section {
+    border: 1px solid #d9e4ec;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.fa-bug {
+    margin-left: 30px;
+    margin-top: 35px;
+    background-color: #000000;
+    color: #b4ebf8;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.div-border-terceira-section h6 {
+    margin-top: -45px;
+    margin-left: 100px;
+    font-size: 14px;
+}
+
+.div-border-terceira-section small {
+    color: #808087;
+}
+
+.fa-suitcase {
+    margin-left: 100px;
+    margin-right: 10px;
+    color: #808087;
+}
+
+.icone-maps {
+    margin-left: -123px;
+    color: #808087;
+    margin-top: 1192px;
+    font-size: 16px;
+}
+
+.margin-left {
+    position: absolute;
+    left: 340px;
+    margin-top: -21px;
+}
+
+.fa-clock {
+    margin-left: 310px;
+    margin-top: -19px;
+    position: absolute;
+    color: #808087;
+}
+
+.small-time {
+    position: absolute;
+    left: 455px;
+    margin-top: -21px;
+}
+
+.fa-money-bill-alt {
+    position: absolute;
+    left: 545px;
+    margin-top: -19px;
+    color: #808087;
+}
+
+.small-money {
+    position: absolute;
+    left: 575px;
+    margin-top: -21px;
+}
+
+.span-full {
+    background-color: gainsboro;
+    padding-left: 20px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-top: 6px;
+    margin-right: 17px;
+    border-radius: 15px;
+    color: blue;
+    margin-left: 50px;
+}
+
+.span-private {
+    background-color: gainsboro;
+    padding-left: 20px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-top: 6px;
+    margin-right: 17px;
+    border-radius: 15px;
+    color: green;
+}
+
+.span-urgent {
+    background-color: gainsboro;
+    padding-left: 20px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-top: 6px;
+    margin-right: 17px;
+    border-radius: 15px;
+    color: orange;
+}
+
 @media (max-width: 320px) {
     #menu-notebook {
         display: none;
