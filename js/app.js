@@ -51,4 +51,175 @@ function fecharMenu(){
 	menu_aberto_aberto = 0;
 }
 
-//====================================================================// 
+//====================================================================//
+
+$("#div-box-shadow").on("mouseover", function(e) {
+  $("#div-box-shadow").css("box-shadow", "0 .1rem 1rem rgba(0,0,0,.15)");
+  $("#div-box-shadow").css("transition", "all .4s");
+  $("#div-color-blue").css("background-color", "blue");
+  $("#div-color-blue").css("transition", "all .6s");
+  $("#icone-color").css("color", "white");
+  $("#texto-color").css("color", "blue");
+  $("#texto-color").css("transition", "all .6s");
+});
+
+$("#div-box-shadow").on("mouseleave", function(e) {
+  $("#div-box-shadow").css("box-shadow", "");
+  $("#icone-color").css("color", "blue");
+  $("#div-color-blue").css("background-color", "#d9e4ec");
+  $("#texto-color").css("color", "#000000");
+});
+
+//====================================================================//
+
+$("#div-box-shadow-2").on("mouseover", function(e) {
+  $("#div-box-shadow-2").css("box-shadow", "0 .1rem 1rem rgba(0,0,0,.15)");
+  $("#div-box-shadow-2").css("transition", "all .4s");
+  $("#div-color-blue-2").css("background-color", "blue");
+  $("#div-color-blue-2").css("transition", "all .6s");
+  $("#icone-color-2").css("color", "white");
+  $("#texto-color-2").css("color", "blue");
+  $("#texto-color-2").css("transition", "all .6s");
+});
+
+$("#div-box-shadow-2").on("mouseleave", function(e) {
+  $("#div-box-shadow-2").css("box-shadow", "");
+  $("#icone-color-2").css("color", "blue");
+  $("#div-color-blue-2").css("background-color", "#d9e4ec");
+  $("#texto-color-2").css("color", "#000000");
+});
+
+//====================================================================//
+
+$("#div-box-shadow-3").on("mouseover", function(e) {
+  $("#div-box-shadow-3").css("box-shadow", "0 .1rem 1rem rgba(0,0,0,.15)");
+  $("#div-box-shadow-3").css("transition", "all .4s");
+  $("#div-color-blue-3").css("background-color", "blue");
+  $("#div-color-blue-3").css("transition", "all .6s");
+  $("#icone-color-3").css("color", "white");
+  $("#texto-color-3").css("color", "blue");
+  $("#texto-color-3").css("transition", "all .6s");
+});
+
+$("#div-box-shadow-3").on("mouseleave", function(e) {
+  $("#div-box-shadow-3").css("box-shadow", "");
+  $("#icone-color-3").css("color", "blue");
+  $("#div-color-blue-3").css("background-color", "#d9e4ec");
+  $("#texto-color-3").css("color", "#000000");
+});
+
+//====================================================================//
+
+$("#div-box-shadow-4").on("mouseover", function(e) {
+  $("#div-box-shadow-4").css("box-shadow", "0 .1rem 1rem rgba(0,0,0,.15)");
+  $("#div-box-shadow-4").css("transition", "all .4s");
+  $("#div-color-blue-4").css("background-color", "blue");
+  $("#div-color-blue-4").css("transition", "all .6s");
+  $("#icone-color-4").css("color", "white");
+  $("#texto-color-4").css("color", "blue");
+  $("#texto-color-4").css("transition", "all .6s");
+});
+
+$("#div-box-shadow-4").on("mouseleave", function(e) {
+  $("#div-box-shadow-4").css("box-shadow", "");
+  $("#icone-color-4").css("color", "blue");
+  $("#div-color-blue-4").css("background-color", "#d9e4ec");
+  $("#texto-color-4").css("color", "#000000");
+});
+
+//====================================================================//
+
+$("#div-box-shadow-5").on("mouseover", function(e) {
+  $("#div-box-shadow-5").css("box-shadow", "0 .1rem 1rem rgba(0,0,0,.15)");
+  $("#div-box-shadow-5").css("transition", "all .4s");
+  $("#div-color-blue-5").css("background-color", "blue");
+  $("#div-color-blue-5").css("transition", "all .6s");
+  $("#icone-color-5").css("color", "white");
+  $("#texto-color-5").css("color", "blue");
+  $("#texto-color-5").css("transition", "all .6s");
+});
+
+$("#div-box-shadow-5").on("mouseleave", function(e) {
+  $("#div-box-shadow-5").css("box-shadow", "");
+  $("#icone-color-5").css("color", "blue");
+  $("#div-color-blue-5").css("background-color", "#d9e4ec");
+  $("#texto-color-5").css("color", "#000000");
+});
+
+//====================================================================//
+
+$("#div-box-shadow-6").on("mouseover", function(e) {
+  $("#div-box-shadow-6").css("box-shadow", "0 .1rem 1rem rgba(0,0,0,.15)");
+  $("#div-box-shadow-6").css("transition", "all .4s");
+  $("#div-color-blue-6").css("background-color", "blue");
+  $("#div-color-blue-6").css("transition", "all .6s");
+  $("#icone-color-6").css("color", "white");
+  $("#texto-color-6").css("color", "blue");
+  $("#texto-color-6").css("transition", "all .6s");
+});
+
+$("#div-box-shadow-6").on("mouseleave", function(e) {
+  $("#div-box-shadow-6").css("box-shadow", "");
+  $("#icone-color-6").css("color", "blue");
+  $("#div-color-blue-6").css("background-color", "#d9e4ec");
+  $("#texto-color-6").css("color", "#000000");
+});
+
+//====================================================================//
+
+$("#div-box-shadow-7").on("mouseover", function(e) {
+  $("#div-box-shadow-7").css("box-shadow", "0 .1rem 1rem rgba(0,0,0,.15)");
+  $("#div-box-shadow-7").css("transition", "all .4s");
+  $("#div-color-blue-7").css("background-color", "blue");
+  $("#div-color-blue-7").css("transition", "all .6s");
+  $("#icone-color-7").css("color", "white");
+  $("#texto-color-7").css("color", "blue");
+  $("#texto-color-7").css("transition", "all .6s");
+});
+
+$("#div-box-shadow-7").on("mouseleave", function(e) {
+  $("#div-box-shadow-7").css("box-shadow", "");
+  $("#icone-color-7").css("color", "blue");
+  $("#div-color-blue-7").css("background-color", "#d9e4ec");
+  $("#texto-color-7").css("color", "#000000");
+});
+
+//====================================================================//
+
+$("#div-box-shadow-8").on("mouseover", function(e) {
+  $("#div-box-shadow-8").css("box-shadow", "0 .1rem 1rem rgba(0,0,0,.15)");
+  $("#div-box-shadow-8").css("transition", "all .4s");
+  $("#div-color-blue-8").css("background-color", "blue");
+  $("#div-color-blue-8").css("transition", "all .6s");
+  $("#icone-color-8").css("color", "white");
+  $("#texto-color-8").css("color", "blue");
+  $("#texto-color-8").css("transition", "all .6s");
+});
+
+$("#div-box-shadow-8").on("mouseleave", function(e) {
+  $("#div-box-shadow-8").css("box-shadow", "");
+  $("#icone-color-8").css("color", "blue");
+  $("#div-color-blue-8").css("background-color", "#d9e4ec");
+  $("#texto-color-8").css("color", "#000000");
+});
+
+//====================================================================//
+
+$("#div-box-shadow-9").on("mouseover", function(e) {
+  $("#div-box-shadow-9").css("box-shadow", "0 .1rem 1rem rgba(0,0,0,.15)");
+  $("#div-box-shadow-9").css("transition", "all .4s");
+  $("#div-color-blue-9").css("background-color", "blue");
+  $("#div-color-blue-9").css("transition", "all .6s");
+  $("#icone-color-9").css("color", "white");
+  $("#texto-color-9").css("color", "blue");
+  $("#texto-color-9").css("transition", "all .6s");
+});
+
+$("#div-box-shadow-9").on("mouseleave", function(e) {
+  $("#div-box-shadow-9").css("box-shadow", "");
+  $("#icone-color-9").css("color", "blue");
+  $("#div-color-blue-9").css("background-color", "#d9e4ec");
+  $("#texto-color-9").css("color", "#000000");
+});
+
+//====================================================================//
