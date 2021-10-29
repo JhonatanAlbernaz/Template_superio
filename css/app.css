@@ -596,6 +596,24 @@
     text-decoration: none !important;
 }
 
+.height-600 {
+    height: 500px;
+}
+
+.margin-top-70 {
+    margin-top: 70px;
+}
+
+.image-app-store {
+    height: 50px;
+    margin-top: -20px;
+}
+
+.image-google-play {
+    height: 120px;
+    margin-top: -20px;
+}
+
 @media (max-width: 320px) {
     #menu-notebook {
         display: none;
