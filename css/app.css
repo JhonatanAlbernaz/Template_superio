@@ -528,6 +528,55 @@
     margin-top: 30px;
 }
 
+.height-620 {
+    height: 705px;
+}
+
+.background-image {
+    background-image: url(https://tynmagazine.com/wp-content/uploads/sites/3/2020/10/home-office.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-top: 90px;
+    border-radius: 10px;
+}
+
+.h2-espacamento {
+    margin-top: 100px;
+    margin-left: 42px;
+}
+
+.div-small-espacamento {
+    color: #50658e;
+    margin-left: 42px;
+    margin-top: 25px;
+}
+
+.margin-left-42 {
+    margin-left: 42px;
+    margin-top: 25px;
+    line-height: 35px;
+}
+
+.margin-left-42 span {
+    font-size: 0.985em;
+    margin-left: 7px;
+}
+
+.font-size-icones {
+    font-size: 0.875em;
+}
+
+.button-get-started {
+    margin-left: 42px;
+    margin-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}
+
 @media (max-width: 320px) {
     #menu-notebook {
         display: none;
@@ -736,6 +785,14 @@
 
     .margin-top-1 {
         margin-top: 0px !important;
+    }
+
+    .height-620 {
+        height: 1520px;
+    }
+
+    .col-espacamento-topo {
+        margin-top: 30px;
     }
 }
 
@@ -985,6 +1042,14 @@
         height: 325px;
         border-bottom: 1px solid #d9e4ec;
     }
+
+    .height-620 {
+        height: 1455px;
+    }
+
+    .col-espacamento-topo {
+        margin-top: 30px;
+    }
 }
 
 @media (min-width:  376px) and (max-width: 576px) {
@@ -1232,6 +1297,14 @@
         height: 325px;
         border-bottom: 1px solid #d9e4ec;
     }
+
+    .height-620 {
+        height: 1385px;
+    }
+
+    .col-espacamento-topo {
+        margin-top: 30px;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -1449,6 +1522,10 @@
     .imagem-logo-4 {
         height: 50px;
         margin-top: 30px;
+    }
+
+    .height-620 {
+        height: 1140px;
     }
 
 }

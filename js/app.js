@@ -224,11 +224,7 @@ $("#div-box-shadow-9").on("mouseleave", function(e) {
 
 //====================================================================//
 
-var myCarousel = document.querySelector('carouselExampleIndicators')
-var carousel = new bootstrap.Carousel(myCarousel, {
-  interval: 2000,
-  wrap: false
-});
+
 
 //====================================================================//
 
