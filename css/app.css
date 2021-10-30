@@ -614,6 +614,26 @@
     margin-top: -20px;
 }
 
+.height-350 {
+    height: 290px;
+    background-color: #d9e4ec;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.margin-top-50 {
+    margin-top: 75px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.imagem-megaphone {
+    height: 290px;
+    margin-left: 306px;
+}
+
 @media (max-width: 320px) {
     #menu-notebook {
         display: none;
@@ -842,6 +862,48 @@
     .height-500 {
         height: 1560px;
         background-color: #d9e4ec;
+    }
+
+    .imagem-smartphone {
+        height: 285px;
+        margin-left: 10px;
+    }
+
+    .margin-top-70 {
+        margin-top: 0px;
+    }
+
+    .image-app-store {
+        height: 50px;
+        margin-top: 30px;
+        position: absolute;
+        margin-left: -260px;
+    }
+
+    .image-google-play {
+        height: 120px;
+        margin-top: -5px;
+        position: absolute;
+        margin-left: -135px;
+    }
+
+    .height-600 {
+        height: 530px;
+    }
+
+    .imagem-megaphone {
+        display: none;
+    }
+
+    .height-350 {
+        height: 260px;
+        background-color: #d9e4ec;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .margin-top-50 {
+        margin-top: 50px;
     }
 }
 
@@ -1109,8 +1171,51 @@
 
     .height-500 {
         height: 1620px;
-        background-color: #d9e4ec;
+        background-color: #b4c2cc;
     }
+
+    .imagem-smartphone {
+        height: 335px;
+        margin-left: 10px;
+    }
+
+    .margin-top-70 {
+        margin-top: 0px;
+    }
+
+    .image-app-store {
+        height: 50px;
+        margin-top: 30px;
+        position: absolute;
+        margin-left: -204px;
+    }
+
+    .image-google-play {
+        height: 120px;
+        margin-top: -5px;
+        position: absolute;
+        margin-left: -76px;
+    }
+
+    .height-600 {
+        height: 600px;
+    }
+
+    .imagem-megaphone {
+        display: none;
+    }
+
+    .height-350 {
+        height: 260px;
+        background-color: #d9e4ec;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .margin-top-50 {
+        margin-top: 50px;
+    }
+
 }
 
 @media (min-width:  376px) and (max-width: 576px) {
@@ -1378,6 +1483,48 @@
         height: 1650px;
         background-color: #d9e4ec;
     }
+
+    .imagem-smartphone {
+        height: 391px;
+        margin-left: 10px;
+    }
+
+    .margin-top-70 {
+        margin-top: 0px;
+    }
+
+    .image-app-store {
+        height: 50px;
+        margin-top: 30px;
+        position: absolute;
+        margin-left: -138px;
+    }
+
+    .image-google-play {
+        height: 120px;
+        margin-top: -5px;
+        position: absolute;
+        margin-left: -10px;
+    }
+
+    .height-600 {
+        height: 650px;
+    }
+
+    .imagem-megaphone {
+        display: none;
+    }
+
+    .height-350 {
+        height: 260px;
+        background-color: #d9e4ec;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .margin-top-50 {
+        margin-top: 60px;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -1613,6 +1760,39 @@
         background-color: #d9e4ec;
     }
 
+    .margin-top-70 {
+        margin-top: 0px;
+    }
+
+    .image-app-store {
+        height: 50px;
+        margin-top: 40px;
+        position: absolute;
+        margin-left: -520px;
+    }
+
+    .image-google-play {
+        height: 120px;
+        margin-top: 5px;
+        position: absolute;
+        margin-left: -395px;
+    }
+
+    .height-600 {
+        height: 735px;
+    }
+
+    .imagem-megaphone {
+        display: none;
+    }
+
+    .height-350 {
+        height: 260px;
+        background-color: #d9e4ec;
+        width: 90%;
+        border-radius: 10px;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1831,6 +2011,25 @@
         width: 18rem;
         border-radius: 6px;
         height: 445px;
+    }
+
+    .image-app-store {
+        height: 50px;
+        margin-top: 50px;
+        position: absolute;
+        margin-left: -65px;
+    }
+
+    .image-google-play {
+        height: 120px;
+        margin-top: 15px;
+        position: absolute;
+        margin-left: 65px;
+    }
+
+    .imagem-megaphone {
+        height: 287px;
+        margin-left: 156px;
     }
 
 }
